@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment5</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .Buttons{
+            padding: 0px;
+            display: flex;
+            background-color: white;
+            border-bottom: 1px solid rgba(173, 172, 172, 0.521);
+
+        }
+        .Buttons>h3{
+            margin-left: 100px;
+            margin-bottom: 0px;
+            border-bottom: 4px solid violet;
+            padding-bottom: 20px;
+        }
+        .Buttons>button{
+            font-size: 18px;
+            margin-top: 10px;
+            margin-left: 1000px;
+            width: 100px;
+            height: 50px;
+            background-color: white;
+            border: 0px;
+        }
+        .cards{
+            display: flex;
+            justify-content: space-evenly;
+            
+            padding: 10px;
+        }
+        .content{
+            margin-left: 10px;
+            text-align: left;
+            border: 1px solid rgba(119, 117, 117, 0.39);
+            border-radius: 5px;
+            width: 350px;
+            height: 410px;
+            
+        }
+        .self{
+            position: relative;
+            align-items: end;
+        }
+        .self>button{
+            border: 0px;
+            background-color: blueviolet;
+            color: white;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 70px;
+            height: 30px;
+        }
+        .self>img{
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            width: 350px;
+            height: 225px;
+        }
+        .texts{
+            padding-left: 10px;
+            padding-right: 10px;
+            margin-left: 10px;
+        }
+        .texts>p{
+            color: rgba(75, 73, 73, 0.829);
+        }
+        .comment{
+            background-color: rgb(237, 242, 247);
+            padding-top: 1px;
+            padding-bottom: 1px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="Buttons">
+        <h3><i class="fa-solid fa-book"></i> Cooking Blog</h3>
+        <button><i class="fa-solid fa-chevron-down"></i>See All</button>
+    </div>
+    <div class="cards">
+        <div class="content">
+            <div class="self">
+                <img src="Images/P1.jpg" alt="">
+                <button>cooking</button>
+            </div>
+            <div class="texts">
+                <h2>Best Dessert Ever</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+             </div>
+             <div class="comment">
+                <h4> <i class="fa-regular fa-clock"></i>  39min ago &nbsp; &nbsp; &nbsp; <i class="fa-regular fa-message"></i>  78 comments</h4>
+             </div>
+        </div>
+        <div class="content">
+            <div class="self">
+                <img src="Images/P2.jpg" alt="">
+                <button>cooking</button>
+            </div>
+            <div class="texts">
+                <h2>Best Dessert Ever</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+             </div>
+             <div class="comment">
+                <h4><i class="fa-regular fa-clock"></i>  39min ago &nbsp; &nbsp; &nbsp; <i class="fa-regular fa-message"></i>  78 comments</h4>
+             </div>
+        </div>
+        <div class="content">
+            <div class="self">
+                <img src="Images/P3.jpg" alt="">
+                <button>cooking</button>
+            </div>
+            <div class="texts">
+                <h2>Best Dessert Ever</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+             </div>
+             <div class="comment">
+                <h4><i class="fa-regular fa-clock"></i>  39min ago &nbsp; &nbsp; &nbsp; <i class="fa-regular fa-message"></i>  78 comments</h4>
+             </div>
+        </div>
+    </div>
+</body>
+</html>
